@@ -10,6 +10,7 @@ int main(){
     for(int y=0;y<50;y++)
     {
     matrix[x][y]='.';
+    printf("%c",matrix[x][y]);
     }
     printf("\n");
     return 0;
